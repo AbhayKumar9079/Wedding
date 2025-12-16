@@ -725,6 +725,7 @@ nav a {
 .event-section {
     display: flex;
     gap: 40px;
+    margin-left: 20px;
     padding: 40px 0;
 }
 
@@ -1208,6 +1209,7 @@ nav a {
         font-size: 32px;
     }
 }
+
 
 
 
