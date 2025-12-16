@@ -14,13 +14,6 @@ if (heartArea) {
         heartArea.appendChild(heart);
     }
 }
-
-/* MOBILE MENU */
-function toggleMenu() {
-    document.querySelector('.mobile-menu').classList.toggle('active');
-    document.querySelector('.menu-overlay').classList.toggle('active');
-}
-
 /* COUNTDOWN */
 function updateCountdown() {
     const target = new Date("2026-11-12T18:00:00").getTime();
@@ -47,3 +40,4 @@ boxes.forEach(box => {
         document.getElementById(id).classList.add('show');
     });
 });
+
